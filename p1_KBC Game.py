@@ -16,3 +16,4 @@ for i in qus:
             ans.pop(0)
             break
 print("your total income",total)
+    
