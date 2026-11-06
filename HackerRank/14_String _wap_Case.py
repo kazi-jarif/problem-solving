@@ -5,12 +5,13 @@ def swap_case(s):
         if j ==True:
             k=i.lower()
             li.append(k)
-        elif j == False
+        elif j == False:
             k=i.upper()
             li.append(k)
         else:
             li.append(i)
-    return li
+    li_st="".join(li)
+    return li_st
 
 if __name__ == '__main__':
     s = input()
